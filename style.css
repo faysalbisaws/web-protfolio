@@ -9,7 +9,11 @@ h2{
     font-size: 40px;
     
 }
-.name-highlight{
+p{
+    color: blueviolet;
+}
+
+.orange-highlight{
     color: orange;
 }
 .half-with{
@@ -27,15 +31,37 @@ h2{
     background-repeat: no-repeat;
 }
 section{
-   overflow: hidden;
-    
+   height: 500px;
+   padding-bottom: 150px; 
 }
 .link-button{
     text-decoration: none;
     background-image: linear-gradient(45deg, lightsalmon, tomato);
     padding: 10px 20px;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
 }
 
+.dream-area{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
+
+.single-experiences{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 80;
+}
+.experience-area{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stact{
+    border-left: 7px solid;
+    border-image: linear-gradient9(lightsalmon,tomato);
+    border-image-slice: 1;
+
+}
+ 
